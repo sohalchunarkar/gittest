@@ -13,6 +13,6 @@ public class air {
     }
     public void fule(int range)
     {
-        System.out.println("the Range for"+range+"L petrol is" + range*50);
+        System.out.println("the Range for "+range+"L petrol is " + range*50);
     }
 }
