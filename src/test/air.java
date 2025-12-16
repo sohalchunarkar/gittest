@@ -11,4 +11,8 @@ public class air {
     public void engine(){
         System.out.println("this particular thing has air engine");
     }
+    public void fule(int range)
+    {
+        System.out.println("the Range for"+range+"L petrol is" + range*50);
+    }
 }
