@@ -1,0 +1,46 @@
+In Java, classes and objects form the foundation of Object-Oriented Programming (OOP). They help model real-world entities and organize code in a structured way.
+
+A class is a blueprint used to create objects that share common properties and behavior.
+An object is an instance of a class. It represents a specific entity created from the class template.
+Java Class
+A class is a blueprint that defines data and behavior for objects. It groups related fields and methods in a single unit. Memory for its members is allocated only when an object is created.
+
+Acts as a template to create objects with shared structure.
+Does not occupy memory for fields until instantiation.
+Can contain fields, methods, constructors, nested classes and interfaces.
+
+Java Objects
+An object is an instance of a class created to access its data and operations. Each object holds its own state.
+
+State: Values stored in fields.
+Behavior: Actions defined through methods.
+Identity: Distinguishes one object from another.
+Objects mirror real-world items such as customer, product or circle. Non-primitive objects are stored on the heap while their references remain on the stack.
+
+Object Instantiation
+Creating an object is known as instantiation. All instances of a class share structure and behavior while storing different state values.
+
+Java Constructors
+Last Updated : 13 Nov, 2025
+A constructor in Java is a special member that is called when an object is created. It initializes the new object’s state. It is used to set default or user-defined values for the object's attributes
+
+A constructor has the same name as the class.
+It does not have a return type, not even void.
+It can accept parameters to initialize object properties.
+Types of Constructors in Java
+There are four types of constructors in Java
+1. Default Constructor
+A default constructor has no parameters. It’s used to assign default values to an object. If no constructor is explicitly defined, Java provides a default constructor.
+
+2. Parameterized Constructor
+A constructor that has parameters is known as parameterized constructor. If we want to initialize fields of the class with our own values, then use a parameterized constructor.
+
+3. Copy Constructor in Java
+Unlike other constructors copy constructor is passed with another object which copies the data available from the passed object to the newly created object.
+
+
+4. Private Constructor
+A private constructor cannot be accessed from outside the class. It is commonly used in:
+
+Singleton Pattern: To ensure only one instance of a class is created.
+Utility/Helper Classes: To prevent instantiation of a class containing only static methods.
