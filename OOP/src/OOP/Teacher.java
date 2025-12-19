@@ -1,30 +1,26 @@
 package OOP;
 
 public class Teacher {
-     int mobile ;
-     int date;
-     String name;
-     String gender;
-    public Teacher(){
-
-    }
-    //  void teaching()
-    //  {
-    //     System.out.println("hello i teach Math subject");
+     public static int mobile = 29;
+     public int date = 19;
+   
+     
+    //  public Teacher(){
+    //     System.out.println("this is a non ");
     //  }
-    //  Teacher(){
-    //     System.out.println("hello i'm default constructor for teacher");
-    //  }
-
-     public Teacher(int mobile, int date, String name, String gender) {
-        this.mobile = mobile;
-        this.date = date;
-        this.name = name;
-        this.gender = gender;
+    //static mehtod can be accessed without it's object
+     public static void demo1(){
+        mobile  = 234;
+        //cant use non static variables
+        // date = 23; static method can only use static things
+        System.out.println("This is a static method");
+     }
+     public void demo2()
+     {  // non static method use static as well non static 
+        mobile = 23525;
+        date = 2342;
+        System.out.println("this is a non staic method");
      }
 
-    //  @Override
-    //  public String toString() {
-    //     return "Teacher [mobile=" + mobile + ", date=" + date + ", name " + name + ", gender=" + gender + "]";
-    //  }
+  
  }
