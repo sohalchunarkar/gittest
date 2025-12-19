@@ -5,20 +5,26 @@ public class Teacher {
      int date;
      String name;
      String gender;
+    public Teacher(){
 
+    }
+    //  void teaching()
+    //  {
+    //     System.out.println("hello i teach Math subject");
+    //  }
     //  Teacher(){
     //     System.out.println("hello i'm default constructor for teacher");
     //  }
 
-    //  public Teacher(int mobile, int date, String name, String gender) {
-    //     this.mobile = mobile;
-    //     this.date = date;
-    //     this.name = name;
-    //     this.gender = gender;
-    //  }
+     public Teacher(int mobile, int date, String name, String gender) {
+        this.mobile = mobile;
+        this.date = date;
+        this.name = name;
+        this.gender = gender;
+     }
 
     //  @Override
     //  public String toString() {
-    //     return "Teacher [mobile=" + mobile + ", date=" + date + ", name=" + name + ", gender=" + gender + "]";
+    //     return "Teacher [mobile=" + mobile + ", date=" + date + ", name " + name + ", gender=" + gender + "]";
     //  }
-}
+ }
